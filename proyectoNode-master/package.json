@@ -1,0 +1,27 @@
+{
+  "name": "proyectonode",
+  "version": "1.0.0",
+  "description": "proyecto nodejs",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiago980709/proyectoNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiago980709/proyectoNode/issues"
+  },
+  "homepage": "https://github.com/thiago980709/proyectoNode#readme"
+}

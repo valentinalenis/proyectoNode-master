@@ -1,0 +1,44 @@
+{{>header}}
+<div class="container">
+    <form action="./indexU" method="POST" class="form-horizontal" style="margin:0 auto">
+        <div class="form-group">
+            <label class="col-lg-4 control-label">Nombres</label>
+            <div class="col-lg-4">
+            <input type="text" class="form-control" name="nombre" required/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-lg-4 control-label">Documento</label>
+            <div class="col-lg-4">
+            <input type="number" class="form-control" name="documento"  required/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-lg-4 control-label">Correo Electrónico</label>
+            <div class="col-lg-4">
+            <input type="email" class="form-control" name="email" required />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-lg-4 control-label">Teléfono Celular</label>
+            <div class="col-lg-4">
+            <input type="number" class="form-control" name="telefono_cel" required />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="">
+            <button type="submit" class="btn btn-success left">Registrarse</button>
+            </div>
+        </div>
+
+    </form>
+
+</div>
+<p>{{err}}</p>
+
+
+{{>footer}}

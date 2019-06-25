@@ -1,0 +1,16 @@
+{{>header}}
+{{>menu}}
+{{{listar}}}
+<form action="./actualizarCurso" method="POST">
+    <input id="txtNombre" name="id">
+    <button id="informacion" class="btn btn-info">Actualizar</button>
+</form>
+
+<script type="text/javascript">
+$('#tb tr').on('click', function(){
+  var dato = $(this).find('td:first').html();
+  $('#txtNombre').val(dato);
+});
+</script> 
+{{err}}
+{{>footer}}

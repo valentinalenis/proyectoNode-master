@@ -1,0 +1,47 @@
+{{>header}}
+{{>menu}}
+
+<h1>Coordinador</h1>
+    
+    <form action="./curso" method="POST">
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="number" class="form-control" name="newId" placeholder="Id del curso" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="text" class="form-control" name="newNombre" placeholder="Nombre del curso" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="text" class="form-control" name="newDescripcion" placeholder="Descripcion del curso" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="text" class="form-control" name="newValor" placeholder="Valor del curso" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="form-control" name="newModalidad" aria-placeholder="Modalidad">
+            <option>Presencial</option>
+            <option>Virtual</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="number" class="form-control" name="newHoras" placeholder="Intensidad horaria">
+        </div>
+
+        <div class="form-group">
+            <div class="">
+            <button type="submit" class="btn btn-success left">Crear curso</button>
+            </div>
+        </div>
+    
+        
+    </form>
+
+    <p>{{err}}</p>
+
+{{>footer}}
